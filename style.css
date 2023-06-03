@@ -1,0 +1,108 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    text-align: center;
+    background: #11998e; 
+    /* background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  */
+    background: linear-gradient(to right, #12fc22, #11998e);
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.cont{
+    position: relative;
+    z-index: 999;
+    height: 500px;
+    width: 360px;
+    background-image: url(assets/bg.png);
+    /* background-color: #FFF;  */
+    /* background: linear-gradient(to bottom,#01bffe,gold); */
+    margin: 50px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 4px;
+}
+#input{
+    border-radius: 5px;
+    margin: 1em 10px -15px 10px;
+    height: 6em;
+    width: 93%;
+    resize: none;
+    color: #11998e;
+}
+.bt hr{
+    margin: 0 10px ;
+}
+.btn-r{
+    width: 120px;
+    margin-left: 80px;
+    margin-right: -60px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    color: #fff;
+    background: #088cc9;
+    box-shadow: 0px 2px 18px #0a49f6;
+    font-family: "Nunito", sans-serif;
+}
+.btn-l{
+    margin-right: 0;
+    margin-left: -60px;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 0;
+    padding: 1.6rem 3rem;
+    border-radius: 4em;
+    transition: 0.5s;
+    color: #fff;
+    background: #088cc9;
+    box-shadow: 0px 2px 18px #0a49f6;
+    font-family: "Nunito", sans-serif;
+}
+.btn-r:hover{
+    transform: scale(1.1);
+}
+.btn-l:hover{
+    transform: scale(1.1);
+}
+.out{
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.output-container textarea {
+    flex: 1;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    height: 34px;
+    height: 6em;
+    width: 90%;
+    resize: none;
+    background-color: #11998e;
+}
+.output-container button{
+    width: 100px;
+    align-items: center;
+    color: #11998e;
+}
+.reset{
+    background-color: #11998e;
+    height: 20px;
+    width: 70px;
+    font-size: smaller;
+    border-radius: 5px;
+    margin: 0 250px 10px 0;
+}
+.reset:hover{
+    transform: scale(1.1);
+}
+.outro{
+    font-size: large;
+    font-family: Cursive;
+}

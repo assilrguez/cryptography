@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography | assil</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/3470474.png">
+</head>
+<body>
+    <div class="cont">   
+        <h1>Encode and Decode</h1>
+        <div class="indiv">
+            <label for="input">Enter text to be encoded / decoded:</label><br>
+            <textarea id="input" placeholder="INPUT" autofocus required></textarea><br><br>
+        </div>
+        <button class="reset" onclick="reset()">Reset</button>
+        <div class="bt">
+            <button class="btn-l" id="encode" onclick="encode()">Encode</button>
+            <button class="btn-r" id="decode" onclick="decode()">Decode</button>
+            <hr>
+        </div>
+        <label class="out" for="output">OUTPUT</label>
+        <div class="output-container">
+	        <textarea id="output" readonly></textarea>
+	        <button onclick="copyToClipboard()" class="btn btn-default" id="copy" >COPY
+                <span class="glyphicon glyphicon-floppy-disk"></span>
+            </button>
+        </div>
+    </div>
+    <p class="outro">Made with <strong style="color: red;">♥</strong> by <a href="https://assilrguez.github.io" style="color: #333333;">Assil Rguez</a> .</p>
+    
+    <script src="script.js"></script>
+</body>
+</html>
